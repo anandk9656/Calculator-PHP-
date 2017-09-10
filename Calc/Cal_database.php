@@ -1,3 +1,4 @@
+// Code for inserting calculation in table.
 <?php
 
 $name =$_SESSION['name'];
