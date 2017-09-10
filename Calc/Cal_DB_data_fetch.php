@@ -1,5 +1,5 @@
 <?php
-session_start();
+session_start(); 
 $name =$_SESSION['name'];
     require_once 'config.php';
     echo "<h3>Database History</h3>"."<br>";
