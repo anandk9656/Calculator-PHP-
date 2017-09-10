@@ -1,3 +1,4 @@
+// Sign Up page
 <!DOCTYPE html>
 <html>
     <head>
