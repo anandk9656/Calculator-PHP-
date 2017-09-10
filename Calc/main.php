@@ -1,4 +1,4 @@
-<?php
+// Cookies in calculator<?php
 
     if(isset($_GET['Answer']))
     {
