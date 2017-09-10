@@ -1,3 +1,4 @@
+// Code for handling last input value and current input value.
 <?php
 
 if(isset($_GET['num']))
