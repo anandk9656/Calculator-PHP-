@@ -1,3 +1,4 @@
+// Code handling when we click buttons of calculator.
 <?php
                     if(isset($_GET['num']))
                       {
