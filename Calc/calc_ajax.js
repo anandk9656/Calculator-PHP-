@@ -1,4 +1,4 @@
-/* global responseText */
+/* Code handling data without page reload */
 function load()
 {
     if(window.XMLHttpRequest)
