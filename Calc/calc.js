@@ -1,4 +1,5 @@
 /* global Event, a */ 
+// For focus in input box of the calculator
 function keyboard(e) 
 {
       var evt = (e) ? e : window.event;
