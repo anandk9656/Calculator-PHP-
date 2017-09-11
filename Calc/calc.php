@@ -1,4 +1,4 @@
-// code showing Calculator
+
 <?php
      session_start();
         
@@ -16,7 +16,7 @@
     {
         header("location: login.php");
     }
-     
+  // code showing Calculator   
 ?>
 <!DOCTYPE HTML>
 <html>
