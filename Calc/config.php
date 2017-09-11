@@ -1,11 +1,11 @@
-// Database connection Page
+
 <?php
 
             $servername = "localhost";
             $username = "root";
             $password = "";
             $db = "test";
-                
+             // Database connection   
             $conn = new mysqli($servername, $username, $password,$db);
                  
                 if ($conn->connect_error) 
