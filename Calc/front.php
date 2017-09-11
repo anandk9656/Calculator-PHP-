@@ -71,7 +71,8 @@
                   echo"<span> Please enter valid details then sign up. </span>"."<br>";
              }
         }
-        ?>
+        ?>	
+		// Link for login page
              <a href ="login.php"> click to login </a>
         </form>
     </body>
