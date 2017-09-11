@@ -38,6 +38,7 @@
         
             for($i=0;$i<9;$i++)
               {
+                // next is used to getting next value from array.
                 echo next($new);
                 echo "<br>";
               }
