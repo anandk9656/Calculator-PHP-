@@ -67,6 +67,7 @@
         </div>        
     </form>
     <button onclick="load()"> History </button> 
+         <!-- Required file for cookies and db insertion-->
      <?php require_once 'main.php'; ?> 
     <?php require_once 'Cal_database.php'; ?>
   
