@@ -35,7 +35,8 @@
                         $chkpwd = $_GET['U_Pwd']; 
                    
                     require_once 'config.php';
-                  
+                    
+                      // Checking usernamme and password for login
                     $query = mysqli_query($conn,"select * from user_data where User_Name ='$chkname' and Password ='$chkpwd'");
                    
                     $res = mysqli_fetch_row($query);
