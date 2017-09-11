@@ -1,4 +1,5 @@
-// Cookies in calculator<?php
+// Cookies in calculator
+<?php
 
     if(isset($_GET['Answer']))
     {
@@ -23,17 +24,17 @@
         {       
             $new = explode(",",$value);
         }
-      //  echo '<pre>';
-      //  echo "<h3> Total History </h3>";
-      //  print_r($new);
-      //  echo '</pre>';
-//        echo "<h3> Last Ten History  </h3>";
-//        echo current($new);
-//        echo "<br>";
-//        
-//            for($i=0;$i<9;$i++)
-//              {
-//                echo next($new);
-//                echo "<br>";
-//              }
+        echo '<pre>';
+        echo "<h3> Total History </h3>";
+        print_r($new);
+        echo '</pre>';
+        echo "<h3> Last Ten History  </h3>";
+        echo current($new);
+        echo "<br>";
+        
+            for($i=0;$i<9;$i++)
+              {
+                echo next($new);
+                echo "<br>";
+              }
     } 
