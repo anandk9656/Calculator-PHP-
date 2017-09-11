@@ -14,6 +14,7 @@
                      {
                          if(!empty($_GET['temp']))
                         {
+                            // using eval function to getting answer from expression.
                              eval('$res= ' . $_GET['temp'] . ';');
                              echo $res;
                         }
