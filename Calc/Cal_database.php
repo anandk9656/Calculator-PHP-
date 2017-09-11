@@ -15,6 +15,7 @@ if(isset($_GET['Answer']))
         if ($conn->query($sql) === TRUE) 
           {
               echo "<h3> Inserted to database </h3>"."<br> <br>";    
+            // Getting last insertion id.
                $last_id = $conn->insert_id;
           }
          else 
