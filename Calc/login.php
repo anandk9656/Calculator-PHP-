@@ -1,4 +1,3 @@
-// User Login page.
 <?php 
     session_start();
     
